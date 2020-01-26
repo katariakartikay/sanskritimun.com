@@ -181,6 +181,13 @@ hr {
   background: url("/images/secCardsBackground.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
+  color: #3d3d3d;
+}
+.secretariatSection h1 {
+  color: #3d3d3d;
+}
+.secretariatSection h2 {
+  color: #3d3d3d;
 }
 .headPattern {
   font-family: AlgreyaSans;
