@@ -353,6 +353,7 @@ hr {
   text-decoration: none;
   font-weight: bold;
   color: #e8824f;
+  transition: 0.15s;
 }
 .kLink:hover {
   border-bottom: 1px solid #e8824f;
@@ -360,6 +361,19 @@ hr {
 }
 .committeePopUp {
   display: none;
+  transition: 0.3s;
+}
+.close {
+  cursor: pointer;
+}
+.comSubhead {
+  color: #e8824f;
+  font-size: calc(1.285rem + 0.42vw);
+}
+@media (min-width: 1200px) {
+  .comSubhead {
+    font-size: 1.6rem;
+  }
 }
 button {
   font-family: AlgreyaSans;
