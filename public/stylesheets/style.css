@@ -28,6 +28,9 @@
   src: url("/fonts/AlgreyaSansBold.woff2");
   font-weight: Bold;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -111,14 +114,15 @@ nav {
   background-size: cover;
 }
 .bannerContent {
-  padding-top: 150px;
+  margin-top: 150px;
   color: #fff;
   text-align: center;
   font-family: AlgreyaSans;
   font-weight: bold;
+  background-color: rgba(232,130,79,0.3);
 }
 mark {
-  background-color: rgba(232,130,79,0.4);
+  background-color: rgba(232,130,79,0.3);
   color: #faf9f5;
 }
 h1 {
